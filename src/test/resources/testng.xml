@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="2">
+    <listeners>
+        <listener class-name="utils.MyListeners" />
+    </listeners>
+    <test name = "myTest"  preserve-order="true" parallel="classes" thread-count="2" >
+        <classes>
+            <class name="tests.DashboardTest">
+                <methods>
+                    <include name="verifyDashboardHeader"/>
+                    <include name="clickProfileDropDownMethod"/>
+                    <include name="verifyDropdownItem1"/>
+                    <include name="verifyDropdownItem2"/>
+                    <include name="verifyDropdownItem3"/>
+                    <include name="verifyDropdownItem4"/>
+                    <include name="verifyDropdownItem4Er"/>
+                </methods>
+            </class>
+            <class name="tests.LoginTest">
+                <methods>
+                    <include name="loginwithValidCreds"/>
+                    <include name="loginwithInvalidCreds"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

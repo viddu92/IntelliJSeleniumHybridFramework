@@ -1,0 +1,4 @@
+common\Base.class
+tests\DashboardTest.class
+common\Helpers.class
+tests\LoginTest.class

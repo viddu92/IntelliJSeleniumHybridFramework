@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-22T12:11:15 IST" name="All Test Suite" finished-at="2025-01-22T12:12:20 IST" duration-ms="64996">
+    <groups>
+    </groups>
+    <test started-at="2025-01-22T12:11:15 IST" name="myTest" finished-at="2025-01-22T12:12:20 IST" duration-ms="64996">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:26 IST" name="setup" finished-at="2025-01-22T12:11:35 IST" duration-ms="8975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithValidCreds(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:35 IST" name="loginwithValidCreds" data-provider="testdataSetup1" finished-at="2025-01-22T12:11:37 IST" duration-ms="1972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:37 IST" name="tearDown" finished-at="2025-01-22T12:11:38 IST" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:38 IST" name="setup" finished-at="2025-01-22T12:11:45 IST" duration-ms="6457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithValidCreds(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:45 IST" name="loginwithValidCreds" data-provider="testdataSetup1" finished-at="2025-01-22T12:11:47 IST" duration-ms="2235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:47 IST" name="tearDown" finished-at="2025-01-22T12:11:48 IST" duration-ms="1289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:48 IST" name="setup" finished-at="2025-01-22T12:11:55 IST" duration-ms="6670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithInvalidCreds(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:55 IST" name="loginwithInvalidCreds" data-provider="testdataSetup2" finished-at="2025-01-22T12:11:57 IST" duration-ms="2200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AdminAdmi1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admirrn123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:57 IST" name="tearDown" finished-at="2025-01-22T12:11:59 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:11:59 IST" name="setup" finished-at="2025-01-22T12:12:14 IST" duration-ms="15160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithInvalidCreds(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:12:14 IST" name="loginwithInvalidCreds" data-provider="testdataSetup2" finished-at="2025-01-22T12:12:17 IST" duration-ms="3309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AdminAdmi2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admirrn123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79e2c065]" started-at="2025-01-22T12:12:17 IST" name="tearDown" finished-at="2025-01-22T12:12:19 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.DashboardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@5158b42f]" started-at="2025-01-22T12:11:15 IST" name="setup" finished-at="2025-01-22T12:11:25 IST" duration-ms="9498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardHeader()[pri:1, instance:tests.DashboardTest@5158b42f]" started-at="2025-01-22T12:11:25 IST" name="verifyDashboardHeader" finished-at="2025-01-22T12:11:25 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardHeader -->
+        <test-method signature="clickProfileDropDownMethod()[pri:2, instance:tests.DashboardTest@5158b42f]" started-at="2025-01-22T12:11:25 IST" name="clickProfileDropDownMethod" finished-at="2025-01-22T12:11:28 IST" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProfileDropDownMethod -->
+        <test-method signature="verifyDropdownItem1()[pri:3, instance:tests.DashboardTest@5158b42f]" started-at="2025-01-22T12:11:28 IST" name="verifyDropdownItem1" finished-at="2025-01-22T12:11:28 IST" depends-on-methods="tests.DashboardTest.clickProfileDropDownMethod" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownItem1 -->
+        <test-method signature="verifyDropdownItem2()[pri:4, instance:tests.DashboardTest@5158b42f]" started-at="2025-01-22T12:11:28 IST" name="verifyDropdownItem2" finished-at="2025-01-22T12:11:28 IST" depends-on-methods="tests.DashboardTest.clickProfileDropDownMethod" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownItem2 -->
+        <test-method signature="verifyDropdownItem3()[pri:5, instance:tests.DashboardTest@5158b42f]" started-at="2025-01-22T12:11:28 IST" name="verifyDropdownItem3" finished-at="2025-01-22T12:11:28 IST" depends-on-methods="tests.DashboardTest.clickProfileDropDownMethod" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownItem3 -->
+        <test-method signature="verifyDropdownItem4()[pri:6, instance:tests.DashboardTest@5158b42f]" started-at="2025-01-22T12:11:28 IST" name="verifyDropdownItem4" finished-at="2025-01-22T12:11:28 IST" depends-on-methods="tests.DashboardTest.clickProfileDropDownMethod" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownItem4 -->
+        <test-method signature="verifyDropdownItem4Er()[pri:7, instance:tests.DashboardTest@5158b42f]" started-at="2025-01-22T12:11:28 IST" name="verifyDropdownItem4Er" finished-at="2025-01-22T12:11:28 IST" depends-on-methods="tests.DashboardTest.clickProfileDropDownMethod" duration-ms="165" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Item4 mismatch expected [Logoutss] but found [Logout]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Item4 mismatch expected [Logoutss] but found [Logout]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at tests.DashboardTest.verifyDropdownItem4Er(DashboardTest.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:151)
+at org.testng.internal.thread.graph.TestNGFutureTask.<init>(TestNGFutureTask.java:15)
+at org.testng.internal.thread.graph.GraphOrchestrator.runNodes(GraphOrchestrator.java:58)
+at org.testng.internal.thread.graph.GraphOrchestrator.afterExecute(GraphOrchestrator.java:87)
+at org.testng.internal.thread.graph.TestNGFutureTask.done(TestNGFutureTask.java:34)
+at java.base/java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:434)
+at java.base/java.util.concurrent.FutureTask.set(FutureTask.java:285)
+at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:325)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:151)
+at org.testng.internal.thread.graph.TestNGFutureTask.<init>(TestNGFutureTask.java:15)
+at org.testng.internal.thread.graph.GraphOrchestrator.runNodes(GraphOrchestrator.java:58)
+at org.testng.internal.thread.graph.GraphOrchestrator.run(GraphOrchestrator.java:46)
+at org.testng.TestTaskExecutor.execute(TestTaskExecutor.java:69)
+at org.testng.TestRunner.privateRun(TestRunner.java:720)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownItem4Er -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@5158b42f]" started-at="2025-01-22T12:12:19 IST" name="tearDown" finished-at="2025-01-22T12:12:20 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DashboardTest -->
+    </test> <!-- myTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

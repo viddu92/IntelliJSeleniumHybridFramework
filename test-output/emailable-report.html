@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">All Test Suite</th></tr>
+<tr><td><a href="#t0">myTest</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">64,996</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">myTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.DashboardTest</td><td><a href="#m0">verifyDropdownItem4Er</a></td><td rowspan="1">1737528088401</td><td rowspan="1">165</td></tr><tr><th colspan="4">myTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">tests.DashboardTest</td><td><a href="#m1">clickProfileDropDownMethod</a></td><td rowspan="1">1737528085787</td><td rowspan="1">2236</td></tr><tr class="passedeven"><td><a href="#m2">verifyDashboardHeader</a></td><td rowspan="1">1737528085287</td><td rowspan="1">489</td></tr><tr class="passedeven"><td><a href="#m3">verifyDropdownItem1</a></td><td rowspan="1">1737528088023</td><td rowspan="1">48</td></tr><tr class="passedeven"><td><a href="#m4">verifyDropdownItem2</a></td><td rowspan="1">1737528088071</td><td rowspan="1">50</td></tr><tr class="passedeven"><td><a href="#m5">verifyDropdownItem3</a></td><td rowspan="1">1737528088121</td><td rowspan="1">142</td></tr><tr class="passedeven"><td><a href="#m6">verifyDropdownItem4</a></td><td rowspan="1">1737528088263</td><td rowspan="1">138</td></tr><tr class="passedodd"><td rowspan="4">tests.LoginTest</td><td><a href="#m7">loginwithInvalidCreds</a></td><td rowspan="2">1737528134418</td><td rowspan="2">3309</td></tr><tr class="passedodd"><td><a href="#m8">loginwithInvalidCreds</a></td></tr><tr class="passedodd"><td><a href="#m9">loginwithValidCreds</a></td><td rowspan="2">1737528095563</td><td rowspan="2">1972</td></tr><tr class="passedodd"><td><a href="#m10">loginwithValidCreds</a></td></tr></tbody>
+</table>
+<h2>myTest</h2><h3 id="m0">tests.DashboardTest#verifyDropdownItem4Er</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Item4 mismatch expected [Logoutss] but found [Logout]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at tests.DashboardTest.verifyDropdownItem4Er(DashboardTest.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+	at java.base/java.util.concurrent.FutureTask.&lt;init&gt;(FutureTask.java:151)
+	at org.testng.internal.thread.graph.TestNGFutureTask.&lt;init&gt;(TestNGFutureTask.java:15)
+	at org.testng.internal.thread.graph.GraphOrchestrator.runNodes(GraphOrchestrator.java:58)
+	at org.testng.internal.thread.graph.GraphOrchestrator.afterExecute(GraphOrchestrator.java:87)
+	at org.testng.internal.thread.graph.TestNGFutureTask.done(TestNGFutureTask.java:34)
+	at java.base/java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:434)
+	at java.base/java.util.concurrent.FutureTask.set(FutureTask.java:285)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:325)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+	at java.base/java.util.concurrent.FutureTask.&lt;init&gt;(FutureTask.java:151)
+	at org.testng.internal.thread.graph.TestNGFutureTask.&lt;init&gt;(TestNGFutureTask.java:15)
+	at org.testng.internal.thread.graph.GraphOrchestrator.runNodes(GraphOrchestrator.java:58)
+	at org.testng.internal.thread.graph.GraphOrchestrator.run(GraphOrchestrator.java:46)
+	at org.testng.TestTaskExecutor.execute(TestTaskExecutor.java:69)
+	at org.testng.TestRunner.privateRun(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.DashboardTest#clickProfileDropDownMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.DashboardTest#verifyDashboardHeader</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.DashboardTest#verifyDropdownItem1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.DashboardTest#verifyDropdownItem2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.DashboardTest#verifyDropdownItem3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.DashboardTest#verifyDropdownItem4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.LoginTest#loginwithInvalidCreds</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>AdminAdmi2</td><td>admirrn123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.LoginTest#loginwithInvalidCreds</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>AdminAdmi1</td><td>admirrn123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.LoginTest#loginwithValidCreds</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>admin123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.LoginTest#loginwithValidCreds</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>admin123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
